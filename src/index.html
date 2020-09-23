@@ -26,7 +26,7 @@
     text-decoration: none;
   }
 
-  .corgi-content {
+  .content-grid {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
@@ -51,14 +51,16 @@
   }
 </style>
 
-<h1>Sign Up for Premium Corgi Content</h1>
+<h1>Quant HQ Member Portal</h1>
 
 <div class="user-info">
   <button id="left">Log In</button>
   <button id="right">Sign Up</button>
 </div>
 
-<div class="corgi-content">
+<p>Whether you can see the stuff below is dependent on your Stripe subscription</p>
+
+<div class="content-grid">
   <div class="content">
     <h2>Free Content</h2>
     <div class="free"></div>
@@ -116,7 +118,7 @@
 
       b2.innerText = 'Manage Subscription';
       b2.addEventListener('click', () => {
-        // TODO handle subscription management
+        // Get stripe billing management link
         fetch('/.netlify/functions/create-manage-link', {
           method: 'POST',
           headers: {
