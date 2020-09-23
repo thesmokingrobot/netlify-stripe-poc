@@ -11,7 +11,7 @@ exports.handler = async ({ body, headers }, context) => {
       process.env.STRIPE_WEBHOOK_SECRET,
     );
 
-    // bail out if this is not a subscription update event
+    // bail if this is not a subscription update event
     if (stripeEvent.type !== 'customer.subscription.updated') return;
 
     const subscription = stripeEvent.data.object;
