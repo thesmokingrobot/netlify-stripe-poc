@@ -4,42 +4,52 @@
   </a>
 </p>
 <h1 align="center">
-  Learn With Jason Demo Template
+  Subscription Management in Jamstack Apps (with Thor 雷神)
 </h1>
 <h3 align="center">
-  This is a base template to use as a starting point for <em>Learn With Jason</em> projects.
+  This app was built live on <em>Learn With Jason</em> and it was super fun and I’m sad you weren’t there.
 </h3>
 <p align="center">
-  Helpful links: 
-  <a href="https://lwj-demo-base.netlify.com"><strong>see the demo</strong></a> · 
-  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/learnwithjason/demo-base&utm_source=learnwithjason&utm_medium=github&utm_campaign=devex"><strong>start a new project</strong></a> · 
-  <a href="https://jason.af/lwj/schedule"><strong>see upcoming episodes of <em>Learn With Jason</em></strong></a>
+  But don’t worry! You can still: 
+  <a href="https://www.learnwithjason.dev/subscription-management-in-jamstack-apps"><strong>watch the video</strong></a> · 
+  <a href="https://stripe-subscriptions.netlify.app"><strong>see the demo</strong></a> · 
+  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/stripe-samples/stripe-subscriptions&utm_source=learnwithjason&utm_medium=github&utm_campaign=devex"><strong>deploy this project</strong></a> · 
+  <a href="https://jason.af/lwj/schedule"><strong>see upcoming episodes</strong></a>
 </p>
 
-&nbsp;
+<p align="center">
+  <img
+    src="https://res.cloudinary.com/jlengstorf/video/upload/vs_0.2s,dl_200,eo_33,e_loop,w_500/v1594235401/netlify/blog/stripe-subscriptions/role-change.gif"
+    alt="The workflow of changing subscription levels."
+  />
+</p>
 
-This is a template repo intended to provide some default structure and styles for demo projects. In a nutshell, this provides:
+A full-fledged subscription management with content gated based on subscription level using:
 
-* a styled header
-* a footer with configurable links
-* a main content area that’s centered
-* some generic global defaults (e.g. `box-sizing` reset, CSS variables for fonts, colors, and a few other things)
+- Stripe’s Billing customer portal for payment
+- Netlify Identity
+- Fauna
+- serverless functions
 
-It’s created with [11ty](https://11ty.dev), but we can always generate the wrapper and copy the built HTML over for use with whatever framework.
+### ➡️ [Learn how to build this demo in an in-depth tutorial!](https://www.netlify.com/blog/2020/07/13/manage-subscriptions-and-protect-content-with-stripe/?utm_source=github&utm_medium=stripe-subs-jl&utm_campaign=devex) 👀
+
+Companies at every size need to make money to survive. Learn how to manage user subscriptions and paywall content in this in-depth tutorial!
 
 &nbsp;
 
 ## More Information
 
+- [Watch this app get built live + see links and additional resources][episode]
 - [Follow _Learn With Jason_ on Twitch][twitch] to watch future episodes live
 - [Add the _Learn With Jason_ schedule to your Google Calendar][cal]
 
 &nbsp;
 <p align="center">
-  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/learnwithjason/demo-base&utm_source=learnwithjason&utm_medium=github&utm_campaign=devex">
+  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/stripe-samples/netlify-stripe-subscriptions&utm_source=learnwithjason&utm_medium=github&utm_campaign=devex">
     <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy this project to Netlify" />
   </a>
 </p>
 
+[episode]: https://www.learnwithjason.dev/subscription-management-in-jamstack-apps
 [twitch]: https://jason.af/twitch
 [cal]: https://jason.af/lwj/cal
